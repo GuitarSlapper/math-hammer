@@ -1,8 +1,10 @@
 <resources>
-    <style name="Theme.MathHammer" parent="android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.MathHammer.Base" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:statusBarColor">#192C28</item>
-        <item name="android:navigationBarColor">#192C28</item>
+        <item name="android:statusBarColor">#111820</item>
+        <item name="android:navigationBarColor">#111820</item>
+        <item name="android:windowBackground">#111820</item>
     </style>
+    <style name="Theme.MathHammer" parent="Theme.MathHammer.Base"/>
 </resources>
